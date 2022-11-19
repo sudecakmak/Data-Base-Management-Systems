@@ -28,4 +28,11 @@ A database management system (DBMS) is **system software** for *creating and man
 
 # Create, Alter, Keys
 
+- **CREATE** -> for creating tables
+- **ALTER** -> for changing tables
+- **KEYS** -> 
+
+
+## Project Description
+
 ![Screenshot 2022-11-11 165107](https://user-images.githubusercontent.com/102357822/201354061-32a69061-d5c3-43d2-a652-c55ed29b9c61.png)
