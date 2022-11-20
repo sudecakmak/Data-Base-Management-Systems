@@ -37,8 +37,12 @@ A database management system (DBMS) is **system software** for *creating and man
 
 ## Project Description
 
-![Screenshot 2022-11-11 165107](https://user-images.githubusercontent.com/102357822/201354061-32a69061-d5c3-43d2-a652-c55ed29b9c61.png)
+1. Database name must be VTYSLab2.
+2. CustomerID, OrderID and ProductID must not be NULL when creating the table. All other information must be NULL.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/201354061-32a69061-d5c3-43d2-a652-c55ed29b9c61.png">
+</p>
 
 # Select From Where
 
@@ -48,11 +52,13 @@ A database management system (DBMS) is **system software** for *creating and man
 
 ## Project Description
 
-![Screenshot 2022-11-20 031842](https://user-images.githubusercontent.com/102357822/202876845-61db2865-28b1-461c-91e5-1698c875968b.png)
-
 1. Retrieve the data from the Departments table.
 2. Bring the job_id data in the jobs table using DISTINCT.
 3. Bring the data of employees and jobs working in the Executive Assistant position.
 4. Bring the data of employees working in Department B as first_name, last_name and salary.
 5. Bring the employees working in Department_B and Executive Assistant position as first_name, last_name and salary.
 6. Bring the data of employees working in Department B with salary information as first_name, last_name and salary in descending order.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/202876845-61db2865-28b1-461c-91e5-1698c875968b.png">
+</p>
