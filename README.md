@@ -7,7 +7,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [SQL](#sql)
 - [Create, Alter, Keys](#create-alter-keys)
 - [Select From Where](#select-from-where)
-- [Order by, Like, Null](#order-by-like-null)
+- [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
 
 
 # DBMS
@@ -65,11 +65,14 @@ A database management system (DBMS) is **system software** for *creating and man
 </p>
 
 
-# Order by, Like, Null
+# Order by, Like, Null, Count, Distinct
 
 - **Order by** -> 
 - **Like** -> 
 - **Null** -> 
+- **Count** -> 
+- **Distinct** -> 
+
 
 ## Project Description
 
