@@ -62,3 +62,23 @@ A database management system (DBMS) is **system software** for *creating and man
 <p align="center">
   <img src="https://user-images.githubusercontent.com/102357822/202876845-61db2865-28b1-461c-91e5-1698c875968b.png">
 </p>
+
+
+# Order by, Like, Null
+
+- **Order by** -> 
+- **Like** -> 
+- **Null** -> 
+
+## Project Description
+
+1. Bring the customers whose names start with 'a' and surnames start with 'b'.
+2. Count how many different products there are.
+3. Bring the customer_id, first_name, last_name, phone, order_date, order_status and product_name information of the users who bought the 'Electra Cruiser 1 (24-Inch) - 2016' product and who have phone number information, so that the order date is correct.
+4. Sort the products of the 'ELectra' brand in the 'Children Bicycles' category with the 2016-2018 model year by price (brand_name, category_name, product_name, model_year, list_price).
+5. Update the numbers of customers with NULL phone numbers as '0123456789'.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/203161896-3808a58b-4822-4df8-bd16-71ec8a28a226.png">
+</p>
+
