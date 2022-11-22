@@ -5,7 +5,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 
 - [DBMS](#dbms)
 - [SQL](#sql)
-- [Relationship](#relationship)
+- [Relationships](#relationships)
 - [Create, Alter, Keys](#create-alter-keys)
 - [Select From Where](#select-from-where)
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
@@ -30,7 +30,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - create views in a database
 - set permissions on tables, procedures, and views
 
-# Relationship
+# Relationships
 
 - **One to one** -> 
 - **One to many** -> 
