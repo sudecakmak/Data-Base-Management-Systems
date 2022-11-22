@@ -31,9 +31,21 @@ A database management system (DBMS) is **system software** for *creating and man
 
 # Create, Alter, Keys
 
-- **CREATE** -> for creating tables
-- **ALTER** -> for changing tables
+- **CREATE** -> 
+> The CREATE DATABASE statement is used to create a new SQL database.
+> The CREATE TABLE statement is used to create a new table in a database.
+
+- **ALTER** -> 
+> The ALTER TABLE statement is used to add, delete, or modify columns in an existing table and is also used to add and drop various constraints on an existing table.
+
 - **KEYS** -> 
+> The PRIMARY KEY constraint uniquely identifies each record in a table.
+Primary keys must contain UNIQUE values, and cannot contain NULL values.
+A table can have only ONE primary key; and in the table, this primary key can consist of single or multiple columns (fields).
+
+> The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.
+A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+The table with the foreign key is called the child table, and the table with the primary key is called the referenced or parent table.
 
 
 ## Project Description
@@ -48,8 +60,15 @@ A database management system (DBMS) is **system software** for *creating and man
 # Select From Where
 
 - **SELECT** -> 
+> The SELECT statement is used to select data from a database.
+The data returned is stored in a result table, called the result-set.
+
 - **FROM** -> 
+> The FROM statement is used to specify which table to deal with.
+
 - **WHERE** -> 
+> The WHERE clause is used to filter records.
+It is used to extract only those records that fulfill a specified condition.
 
 ## Project Description
 
@@ -67,11 +86,25 @@ A database management system (DBMS) is **system software** for *creating and man
 
 # Order by, Like, Null, Count, Distinct
 
+
+
 - **Order by** -> 
+> The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+
 - **Like** -> 
+> The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+ The percent sign (%) represents zero, one, or multiple characters.
+ The underscore sign (_) represents one, single character.
+ 
 - **Null** -> 
+> A field with a NULL value is a field with no value.
+If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
+
 - **Count** -> 
+> The COUNT() function returns the number of rows that matches a specified criterion.
+
 - **Distinct** -> 
+> The SELECT DISTINCT statement is used to return only distinct (different) values.
 
 
 ## Project Description
