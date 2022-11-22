@@ -5,6 +5,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 
 - [DBMS](#dbms)
 - [SQL](#sql)
+- [Relationship](#relationship)
 - [Create, Alter, Keys](#create-alter-keys)
 - [Select From Where](#select-from-where)
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
@@ -28,6 +29,31 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - create stored procedures in a database
 - create views in a database
 - set permissions on tables, procedures, and views
+
+# Relationship
+
+- **One to one** -> 
+- **One to many** -> 
+- **Many to one** -> 
+- **Many to many** -> 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/203422574-31ec4946-5b30-4355-85c6-8c0964711711.png">
+</p>
+
+## Project Description
+
+Production Tracking Management System; It has a database showing the relationships between assets such as Product, Firm and Raw Material. The Entity-Relationship Diagram of this system is demonstrated with the Visual Paradigm.
+
+1. Product Asset: Contains Code, Name and Total Cost information.
+2. Firm Presence: Contains Name and Country information.
+3. Raw Material Asset: Contains Code, Name, Quantity and Unit Cost information.
+4. Each company can produce more than one product.
+5. Each Raw Material can be used in the production of more than one product. Each Product can be created by more than one raw material. The production date of the product created using raw materials and the warranty date of the product should be recorded.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/203422139-391a11ad-8fe3-4e7a-be0e-3226952d92bd.png">
+</p>
 
 # Create, Alter, Keys
 
