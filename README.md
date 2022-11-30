@@ -9,7 +9,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [Create, Alter, Keys](#create-alter-keys)
 - [Select From Where](#select-from-where)
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
-
+- [Join, Union, Group by, Having, Exists, Any, All](join-union-group-by-having-exists-any-all)
 
 # DBMS
 
@@ -144,4 +144,26 @@ If a field in a table is optional, it is possible to insert a new record or upda
 <p align="center">
   <img src="https://user-images.githubusercontent.com/102357822/203161896-3808a58b-4822-4df8-bd16-71ec8a28a226.png">
 </p>
+
+
+# Join, Union, Group by, Having, Exists, Any, All
+
+- **Join** -> 
+- **Union** -> 
+- **Group by** -> 
+- **Having** -> 
+- **Exists** -> 
+- **Any** ->
+- **All** -> 
+
+## Project Description
+
+1. List all orders with customer and store information.The screen output should include order_id, first_name, last_name and store name.
+2. List the number of all employees under each manager. The screen output should include the staff_id, first_name, last_name and the number of employees belonging to the MANAGER.
+3. List the ones whose surnames end with the letter 'l' for the employees who receive less than 100 orders. The screen output should include the staff_id, first_name, last_name and the total number of orders received by the EMPLOYEE.
+4. List the products with a stock amount greater than 5. The screen output should include product_id, product_name, model_year and list_price.
+5. List any product whose stock is less than 5. The screen output should include product_id, product_name, model_year and list_price.
+6. List any product for which all inventories have a quantity greater than 5. The screen output should include product_id, product_name, model_year and list_price.
+
+
 
