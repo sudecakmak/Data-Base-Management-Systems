@@ -9,7 +9,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [Create, Alter, Keys](#create-alter-keys)
 - [Select From Where](#select-from-where)
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
-- [Join, Union, Group by, Having, Exists, Any, All](join-union-group-by-having-exists-any-all)
+- [Join, Union, Group by, Having, Exists, Any, All](#join-union-group-by-having-exists-any-all)
 
 # DBMS
 
