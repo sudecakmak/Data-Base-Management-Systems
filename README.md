@@ -149,12 +149,46 @@ If a field in a table is optional, it is possible to insert a new record or upda
 # Join, Union, Group by, Having, Exists, Any, All
 
 - **Join** -> 
+> A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+> - (INNER) JOIN: Returns records that have matching values in both tables
+> - LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+> - RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+> - FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102357822/205270759-4532887b-1ed5-4c9e-a65a-9cc2a3d1c0d8.png">
+</p>
+
+
 - **Union** -> 
+> The UNION operator is used to combine the result-set of two or more SELECT statements.
+Every SELECT statement within UNION must have the same number of columns
+The columns must also have similar data types
+The columns in every SELECT statement must also be in the same order
+
 - **Group by** -> 
+> The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country". The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
 - **Having** -> 
+> The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
 - **Exists** -> 
+> The EXISTS operator is used to test for the existence of any record in a subquery.
+The EXISTS operator returns TRUE if the subquery returns one or more records.
+
 - **Any** ->
+> The ANY operator: 
+returns a boolean value as a result
+returns TRUE if ANY of the subquery values meet the condition
+ANY means that the condition will be true if the operation is true for any of the values in the range.
+
 - **All** -> 
+> The ALL operator:
+returns a boolean value as a result
+returns TRUE if ALL of the subquery values meet the condition is used with SELECT, WHERE and HAVING statements
+ALL means that the condition will be true only if the operation is true for all values in the range. 
+
 
 ## Project Description
 
