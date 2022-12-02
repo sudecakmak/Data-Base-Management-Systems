@@ -179,7 +179,7 @@ The EXISTS operator returns TRUE if the subquery returns one or more records.
 
 - **Any** ->
 > The ANY operator: 
-returns a boolean value as a result
+returns a boolean value as a result,
 returns TRUE if ANY of the subquery values meet the condition
 ANY means that the condition will be true if the operation is true for any of the values in the range.
 
