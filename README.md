@@ -10,6 +10,8 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [Select From Where](#select-from-where)
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
 - [Join, Union, Group by, Having, Exists, Any, All](#join-union-group-by-having-exists-any-all)
+- [View](#view)
+
 
 # DBMS
 
@@ -200,4 +202,22 @@ ALL means that the condition will be true only if the operation is true for all 
 6. List any product for which all inventories have a quantity greater than 5. The screen output should include product_id, product_name, model_year and list_price.
 
 
+
+# View
+
+- **View** -> 
+> In SQL, a view is a virtual table based on the result-set of an SQL statement.
+A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+You can add SQL statements and functions to a view and present the data as if the data were coming from one single table.
+A view is created with the CREATE VIEW statement.
+
+
+## Project Description
+
+1. Create the virtual table listing all orders with customer and store information. The screen output should include order_id, first_name, last_name and store name.
+2. Construct the virtual table listing the number of all employees under each manager. Staff_id, first_name, last_name and number of employees belonging to the MANAGER on the screen output must exist.
+3. The virtual table listing those of the employees who receive less than 100 orders and those whose surnames end with the letter 'l'. Staff_id, first_name, last_name and total number of orders received by the EMPLOYEE on the screen output must exist.
+4. Create the virtual table listing the products with a stock amount greater than 5. The screen output should include product_id, product_name, model_year and list_price.
+5. Create the virtual table listing any product with a stock quantity less than 5. The screen output should include product_id, product_name, model_year and list_price.
+6. Virtual table listing any product with all inventories greater than 5. The screen output should include product_id, product_name, model_year and list_price.
 
