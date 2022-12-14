@@ -11,6 +11,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [Order by, Like, Null, Count, Distinct](#order-by-like-null-count-distinct)
 - [Join, Union, Group by, Having, Exists, Any, All](#join-union-group-by-having-exists-any-all)
 - [View](#view)
+- [Stored Procedures](#stored-procedures)
 
 
 # DBMS
@@ -221,3 +222,17 @@ A view is created with the CREATE VIEW statement.
 5. Create the virtual table listing any product with a stock quantity less than 5. The screen output should include product_id, product_name, model_year and list_price.
 6. Virtual table listing any product with all inventories greater than 5. The screen output should include product_id, product_name, model_year and list_price.
 
+
+# Stored Procedures
+
+- **Stored Procedures** -> 
+> A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
+So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.
+You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
+
+
+## Project Description
+
+1. Using the stored procedure structure, bring the employees whose names and surnames begin with the desired letter (first_name, last_name).
+2. Using the stored procedure structure, write the query that sorts the orders with the desired order status and store identifier number in the orders according to the names of the customers (customer_id, first_name, last_name, product_id, email, order_status, store_id).
+3. Using the stored procedure structure, write the query (brand_name, category_name, product_name, model_year, list_price) that sorts the products of the desired brand in the desired category according to the specific model range (minimum-maximum).
