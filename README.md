@@ -12,6 +12,7 @@ Projects I made in DBMS. I use Microsoft sql server, Azure Data Studio, Visual p
 - [Join, Union, Group by, Having, Exists, Any, All](#join-union-group-by-having-exists-any-all)
 - [View](#view)
 - [Stored Procedures](#stored-procedures)
+- [Trigger](#trigger)
 
 
 # DBMS
@@ -236,3 +237,17 @@ You can also pass parameters to a stored procedure, so that the stored procedure
 1. Using the stored procedure structure, bring the employees whose names and surnames begin with the desired letter (first_name, last_name).
 2. Using the stored procedure structure, write the query that sorts the orders with the desired order status and store identifier number in the orders according to the names of the customers (customer_id, first_name, last_name, product_id, email, order_status, store_id).
 3. Using the stored procedure structure, write the query (brand_name, category_name, product_name, model_year, list_price) that sorts the products of the desired brand in the desired category according to the specific model range (minimum-maximum).
+
+
+
+# Trigger
+
+- **Trigger** -> 
+> A trigger is a stored procedure in database which automatically invokes whenever a special event in the database occurs.
+
+
+## Project Description
+
+1. Create a trigger named “TRG_CustomerCount”. This trigger should print the total number of customers with the name “countOfCustomer” after adding a record to the “tblCustomer” table.
+2. Create a trigger named “TRG_DeletedProduct”. This trigger should print the deleted record after deleting a record from the “tblProduct” table.
+3. Create a trigger named “TRG_DeletedOrder”. This trigger should perform the following two actions after deleting a record from the “tblOrder” table. The record deleted from the “tblOrder” table should be saved in the “tblLoss” table. In this process, pay attention to the information in the "tblLoss" table. The total price on product basis of the records in the “tblLoss” table should be printed on the screen with the name “totalPriceOfLoss”. (Which product was ordered at what price in total.)
